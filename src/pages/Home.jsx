@@ -9,7 +9,7 @@ const Home = () => {
             <div className={'flex justify-center items-center h-screen'}>
                 <Background className={' overflow-hidden -z-10 brightness-75  max-md:scale-80'} image={HomeBackgroundImage}/>
 
-                <a className={'text-slate-50 border px-10 py-4 border-slate-300 hover:bg-slate-200 hover:text-slate-500 hover:bg-opacity-90 transition duration-300 ease-in-out rounded-lg shadow-md shadow-slate-100 bg-opacity-60 bg-slate-500'}
+                <a className={'text-slate-50 border px-10 py-4 border-slate-300 hover:bg-slate-200 hover:text-slate-500 hover:bg-opacity-90 transition duration-300 ease-in-out shadow-md shadow-slate-100 bg-opacity-60 bg-slate-500'}
                    href={KujiraSushiMenu}
                    target={'_blank'}
                 >
