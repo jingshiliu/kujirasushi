@@ -5,8 +5,8 @@ import {useState} from "react";
 const Nav = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
-        <header className="xl:px-36 lg:px-20 px-12 p-10  flex justify-between items-center fixed w-screen">
-            <h1 className={'flex items-center text-slate-100'}>
+        <header className={`lg:px-20 px-12 p-10  flex justify-between items-center fixed w-screen`}>
+            <h1 className={'flex items-center text-slate-100 z-20'}>
                 <GiSushis className={'w-10 h-10'}/>
                 <span className={'text-lg font-mono ml-2'}>
                     Kujira
@@ -22,7 +22,7 @@ const Nav = () => {
             </nav>
 
             <button
-                className={'sm:hidden object-contain w-8 text-slate-200'}
+                className={'sm:hidden object-contain w-8 text-slate-200 z-20'}
                 onClick={() => setShowMenu(!showMenu)}
             >
                 <RxHamburgerMenu className={'w-full h-full'} />
@@ -30,12 +30,14 @@ const Nav = () => {
 
             {showMenu ? (
                 <nav
-                    className={'text-base flex flex-col justify-between text-slate-300 font-light md:hidden items-center absolute left-0 top-2/3 border-b-2 w-full space-y-5 text-center '}
+                    className={`z-10 text-base flex flex-col justify-between text-slate-300 font-light sm:hidden items-center
+                                absolute left-0 top-0 border-b w-full space-y-5 text-center animate__animated animate__fadeInDown
+                                ${showMenu? "max-sm:bg-opacity-50 max-sm:bg-slate-500 translate-y-10 pt-20":""}`}
                 >
-                    <a href="">Home</a>
-                    <a className={'w-1/3 border-t-2 border-slate-500 pt-4 hover:text-slate-400'} href="">About Us</a>
-                    <a className={'w-1/3 border-t-2 border-slate-500 pt-4 hover:text-slate-400'} href="">Menu</a>
-                    <a className={'w-1/3 border-t-2 border-slate-500 pt-4 hover:text-slate-400 pb-4'} href="">Contact Us</a>
+                    <a className={'hover:text-slate-400'} href="">Home</a>
+                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400'} href="">About Us</a>
+                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400'} href="">Menu</a>
+                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400 pb-4'} href="">Contact Us</a>
                 </nav>
             ) : <></>}
         </header>
