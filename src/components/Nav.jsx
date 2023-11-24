@@ -10,7 +10,7 @@ const Nav = ({className}) => {
 
     return (
         <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-50 ${className}
-                            ${scrolled && !showMenu? "bg-opacity-70 bg-slate-500":""}`}>
+                            ${scrolled && !showMenu? "bg-opacity-90 bg-slate-500":""}`}>
             <a href="#home" className={'z-20'}>
                 <h1 className={'flex items-center text-slate-100'}>
                     <GiSushis className={'w-10 h-10'}/>
