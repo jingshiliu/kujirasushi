@@ -58,16 +58,20 @@ const Contact = () => {
                     <label className={'text-slate-300'} >Name</label>
                     <input className={"appearance-none border-none outline-none focus:ring-2 focus:ring-blue-400 mb-4 px-2 py-1"}
                            type="name"
-                           name="user_name" />
+                           name="user_name"
+                           required={true}
+                    />
 
                     <label className={'text-slate-300'} >Email</label>
                     <input className={"appearance-none border-none outline-none focus:ring-2 focus:ring-blue-400 mb-4 px-2 py-1"}
                            type="email"
-                           name="user_email" />
+                           name="user_email"
+                           required={true}
+                    />
 
                     <label className={'text-slate-300'}>Message</label>
                     <textarea className={"appearance-none border-none outline-none focus:ring-2 focus:ring-blue-400 mb-4 px-2 py-1 h-[200px]"}
-                              placeholder={"Hi Kujira Team, my name is..."} name="message"
+                              placeholder={"Hi Kujira Team, my name is..."} name="message" required={true}
                     />
 
                     <input className={"bg-blue-400 py-4 px-8 hover:cursor-pointer hover:bg-blue-500 text-slate-300"} type="submit" value="Send" />
