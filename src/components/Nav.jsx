@@ -1,12 +1,16 @@
 import { GiSushis } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
-import {useState} from "react";
+import { useState} from "react";
+import useScrolled from "../hook/useScrolled.js";
 
+// eslint-disable-next-line react/prop-types
 const Nav = ({className}) => {
     const [showMenu, setShowMenu] = useState(false);
-    if (className === undefined) className = '';
+    const scrolled = useScrolled()
+
     return (
-        <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-50 ${className}`}>
+        <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-50 ${className}
+                            ${scrolled && !showMenu? "bg-opacity-70 bg-slate-500":""}`}>
             <a href="#home" className={'z-20'}>
                 <h1 className={'flex items-center text-slate-100'}>
                     <GiSushis className={'w-10 h-10'}/>
@@ -35,7 +39,7 @@ const Nav = ({className}) => {
                 <nav
                     className={`z-10 text-base flex flex-col justify-between text-slate-300 font-light sm:hidden items-center
                                 absolute left-0 top-0 border-b w-full space-y-5 text-center animate__animated animate__fadeInDown
-                                ${showMenu? "max-sm:bg-opacity-80 max-sm:bg-slate-700 translate-y-10 pt-20":""}`}
+                                ${showMenu? "max-sm:bg-opacity-80 max-sm:bg-slate-500 translate-y-10 pt-20":""}`}
                 >
                     <a className={'hover:text-slate-400'} href="#home">Home</a>
                     <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400'} href="#about">About Us</a>
