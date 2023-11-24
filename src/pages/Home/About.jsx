@@ -108,7 +108,7 @@ const About = () => {
                     {introduction.map(([english, japanese], index) => {
                         if(index >= 3) return <></>
                         return (
-                            <section className={'space-y-2 w-full max-xl:last:hidden'}>
+                            <section key={index} className={'space-y-2 w-full max-xl:last:hidden'}>
                                 <p className={'text-2xl font-light'}>
                                     {english}
                                 </p>
@@ -157,7 +157,7 @@ const About = () => {
                     {introduction.map(([english, japanese], index) => {
                         if(index < 3) return <></>
                         return (
-                            <section className={'space-y-2'}>
+                            <section key={index} className={'space-y-2'}>
                                 <p className={'text-2xl font-light'}>
                                     {english}
                                 </p>
