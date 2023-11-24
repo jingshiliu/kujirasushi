@@ -9,9 +9,9 @@ const AnimateOnce = ({className, animation, children, rootMargin='-10px'}) => {
     if(animation === undefined) animation = ''
 
     return (
-        <div ref={ref} className={`${className} ${hasAnimated? animation: ""}`}>
+        <section ref={ref} className={`${className} ${hasAnimated? animation: ""}`}>
             {children}
-        </div>
+        </section>
     );
 };
 
