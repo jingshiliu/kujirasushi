@@ -20,7 +20,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        if(lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
+        if(lastFiveEmails !== undefined && lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
             alert('You have sent too many emails in the past 24 hours. Please try again later.');
             return;
         }
