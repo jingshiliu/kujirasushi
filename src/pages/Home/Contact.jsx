@@ -34,9 +34,10 @@ const Contact = () => {
         setLastFiveEmails(newLastFiveEmails);
 
         emailjs.sendForm('kujira', 'kujira', form.current, 'e0g2gVdQDOZhcOcAw')
-            .then((result) => {
-                console.log(result.text);
+            .then(() => {
+                alert('Your message has been sent successfully. We will get back to you as soon as possible.')
             }, (error) => {
+                alert('Your message has failed to send. Please try again later.');
                 console.log(error.text);
             });
     };
