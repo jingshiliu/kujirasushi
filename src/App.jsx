@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from "./pages/Layout.jsx";
-import Home from "./pages/Home.jsx";
+import Home from "./pages/Home";
 import 'animate.css/animate.min.css';
 
 function App() {
