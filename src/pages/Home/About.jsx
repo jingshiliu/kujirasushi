@@ -1,4 +1,4 @@
-import useAnimatedOnce from "../../hook/useAnimatedOnce.js";
+import useOnScreenOnce from "../../hook/useOnScreenOnce.js";
 import AnimateOnce from "../../components/AnimateOnce.jsx";
 
 import Sushi1 from '../../assets/images/mahmoud-fawzy-n1DePkKznLY-unsplash.jpg';
@@ -14,7 +14,7 @@ import { BiSolidSushi } from "react-icons/bi";
 
 const About = () => {
     const ref = useRef(null)
-    const hasAnimated = useAnimatedOnce(ref)
+    const hasAnimated = useOnScreenOnce(ref)
 
     const introduction = [
         [
