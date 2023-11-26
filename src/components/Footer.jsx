@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 const Footer = () => {
     return (
         <section
-            className={`bg-[#003049] h-[300px] flex items-center justify-center md:space-x-28 tracking-widest` }
+            className={`bg-[#003049] h-fit p-20 flex items-center justify-center lg:space-x-28 tracking-widest max-lg:flex-col max-lg:space-y-20` }
         >
             <Link className={`text-center`} to={"/#home"}>
                 <h1
@@ -14,7 +14,7 @@ const Footer = () => {
                 <h4 className={'tracking-widest -translate-y-2 text-sm'}>Pittsburgh</h4>
             </Link>
 
-            <ul className={`flex items-center md:space-x-14`}>
+            <ul className={`flex items-center space-x-14 max-sm:space-x-8`}>
                 <li>
                     <Link to={'/#home'}>Home</Link>
                 </li>
