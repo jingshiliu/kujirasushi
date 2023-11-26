@@ -43,7 +43,10 @@ const Contact = () => {
     };
 
     return (
-        <section className={"bg-[#264653] px-20 max-lg:px-0 py-20 text-slate-600 h-fit flex justify-center items-center lg:space-x-28 max-lg:flex-col-reverse "}>
+        <section
+            id={'contact'}
+            className={"bg-[#264653] px-20 max-lg:px-0 py-20 text-slate-600 h-fit flex justify-center items-center lg:space-x-28 max-lg:flex-col-reverse "}
+        >
             <iframe
                 className={" 2xl:w-1/3 lg:w-1/2 w-3/4"}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1135.9168496962525!2d-79.93452498239661!3d40.45128161035593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2111db3ddcd%3A0x1ae321dd70615799!2s736%20Bellefonte%20St%2C%20Pittsburgh%2C%20PA%2015232!5e0!3m2!1szh-CN!2sus!4v1700813959039!5m2!1szh-CN!2sus"
