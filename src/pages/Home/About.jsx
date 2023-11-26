@@ -102,7 +102,7 @@ const About = () => {
             <section className={'flex md:space-x-14 h-fit max-md:flex-col'}>
                 <AnimateOnce
                     className={'space-y-10 2xl:w-3/4 xl:w-2/3 lg:w-1/2'}
-                    animation={'animate__animated animate__fadeInUp'}
+                    animation={'animate__animated animate__slideInLeft'}
                     rootMargin={'-300px'}
                 >
                     {introduction.map(([english, japanese], index) => {
@@ -152,7 +152,7 @@ const About = () => {
 
                 <AnimateOnce
                     className={'space-y-10 2xl:w-3/4 xl:w-2/3 lg:w-1/2 max-sm:p-20'}
-                    animation={'animate__animated animate__fadeInUp'}
+                    animation={'animate__animated animate__slideInRight'}
                 >
                     {introduction.map(([english, japanese], index) => {
                         if(index < 3) return <></>
