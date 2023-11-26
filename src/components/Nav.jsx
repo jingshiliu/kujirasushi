@@ -2,6 +2,7 @@ import { GiSushis } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState} from "react";
 import useScrolled from "../hook/useScrolled.js";
+import {Link} from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const Nav = ({className}) => {
@@ -11,21 +12,21 @@ const Nav = ({className}) => {
     return (
         <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-50 ${className}
                             ${scrolled && !showMenu? "bg-opacity-90 bg-slate-500":""}`}>
-            <a href="#home" className={'z-20'}>
+            <Link to="/#home" className={'z-20'}>
                 <h1 className={'flex items-center text-slate-100'}>
                     <GiSushis className={'w-10 h-10'}/>
                     <span className={'text-lg font-mono ml-2'}>
                     Kujira
                 </span>
                 </h1>
-            </a>
+            </Link>
             <nav
                 className={'text-base flex justify-between lg:space-x-14 text-slate-300 font-light max-sm:hidden sm:space-x-8 items-center'}
             >
-                <a href="#home">Home</a>
-                <a href="#about">About Us</a>
-                <a href="">Menu</a>
-                <a href="">Contact Us</a>
+                <Link to="/#home">Home</Link>
+                <Link to="/#about">About Us</Link>
+                <Link to="/menu">Menu</Link>
+                <Link to="/#contact">Contact Us</Link>
             </nav>
 
             <button
