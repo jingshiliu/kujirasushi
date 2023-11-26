@@ -6,6 +6,8 @@ import Footer from "../../components/Footer.jsx";
 import {useEffect} from "react";
 import {scrollToHash} from "../../util.js";
 import {useLocation} from "react-router-dom";
+import Background from "../../components/Background.jsx";
+import HomeBackgroundImage from "../../assets/images/mahmoud-fawzy-Dbx6-XZY6Dg-unsplash.jpg";
 const Home = () => {
     const location = useLocation()
 
@@ -15,6 +17,7 @@ const Home = () => {
     return (
         <main id={'home'} className={'text-slate-200 overflow-x-hidden'}>
             <Nav />
+            <Background className={'overflow-hidden brightness-75 fixed'} image={HomeBackgroundImage}/>
             <Welcome/>
             <About/>
             <Contact />

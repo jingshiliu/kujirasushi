@@ -4,7 +4,6 @@ import KujiraSushiMenu  from '../../assets/kujirasushi.pdf'
 const Welcome = () => {
     return (
         <section className={'flex justify-center items-center h-screen text-slate-200'}>
-            <Background className={'overflow-hidden brightness-75'} image={HomeBackgroundImage}/>
 
             <div className={'flex justify-center items-center flex-col'}>
                 <div className={`mb-28 text-center animate__animated animate__fadeInDown`}>

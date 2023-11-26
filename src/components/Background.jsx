@@ -4,7 +4,7 @@ const Background = ({image, className}) => {
     if (className === undefined) className = '';
 
     return (
-        <div className={`-z-10 absolute left-0 top-0 w-full h-full ${className}`}>
+        <div className={`-z-10 left-0 top-0 w-full h-full ${className}`}>
             <img className={'object-cover w-full h-full'} src={image} alt="background image "/>
         </div>
     );
