@@ -53,7 +53,7 @@ const About = () => {
     return (
         <section
             id={'about'}
-            className={'lg:p-36 p-20 max-w-xs:p-10 relative h-fit text-slate-600 flex justify-center flex-col items-center space-y-20 relative'}
+            className={'lg:p-36 p-20 max-sm:p-10 max-w-xs:p-10 relative h-fit text-slate-600 flex justify-center flex-col items-center space-y-20 relative'}
         >
             <section ref={ref} className={`max-md:flex-col max-md:items-start max-md:space-y-14 flex md:space-x-14 ${hasAnimated ? "animate__animated animate__slideInLeft": ""} `}>
                 <div className={'text-[60px]'}>
@@ -151,7 +151,7 @@ const About = () => {
                 </AnimateOnce>
 
                 <AnimateOnce
-                    className={'space-y-10 2xl:w-3/4 xl:w-2/3 lg:w-1/2 max-sm:p-20'}
+                    className={'space-y-10 2xl:w-3/4 xl:w-2/3 lg:w-1/2 max-sm:p-10'}
                     animation={'animate__animated animate__slideInRight'}
                 >
                     {introduction.map(([english, japanese], index) => {
