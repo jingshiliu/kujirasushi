@@ -53,7 +53,7 @@ const About = () => {
     return (
         <section
             id={'about'}
-            className={'lg:p-36 p-20 max-sm:p-10 max-w-xs:p-10 relative h-fit text-slate-600 flex justify-center flex-col items-center space-y-20 relative'}
+            className={'bg-white lg:p-36 p-20 max-sm:p-10 max-w-xs:p-10 relative h-fit text-slate-600 flex justify-center flex-col items-center space-y-20 relative'}
         >
             <section ref={ref} className={`max-md:flex-col max-md:items-start max-md:space-y-14 flex md:space-x-14 ${hasAnimated ? "animate__animated animate__slideInLeft": ""} `}>
                 <div className={'text-[60px]'}>
