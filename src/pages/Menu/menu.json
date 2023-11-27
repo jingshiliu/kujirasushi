@@ -1,0 +1,742 @@
+{
+  "featured": {
+    "pacific_experience": {
+      "title": "Pacific Experience",
+      "japanese_title": "太平洋体験",
+      "description": "Children: (ages 3-6) $9.99 (ages 7-12): $17.99",
+      "price": "$27.99",
+      "image": ""
+    },
+    "teriyaki_bowl": {
+      "title": "Teriyaki Bowl",
+      "japanese_title": "照燒てりやきご飯",
+      "description": "Combine the say sauce, brown sugar, ginger, garlic, honey, sesame ail, mirin and water mixed with comstarch together in a bowl then add your favorite proteins and veg!\nChoose your protein chicken, beef, shrimp",
+      "price": "17.50",
+      "image": ""
+    },
+    "japanese_noodle_soup": {
+        "title": "Japanese Noodle Soup",
+        "japanese_title": "(Udon 麺 Or Ramen 手延べ麺)",
+        "description": " Choose your noodle type udon or ramen Soy, Spicy,creamy tonkotsu broth, Chicken Broth \nChoose your protein: Vetetable, Shrimp Tempura, Chicken, Seafood",
+        "price": "15.50",
+        "image": ""
+    },
+    "tokyo_experience": {
+      "title": "Tokyo Experience",
+      "japanese_title": "東京コース",
+      "price": "$37.99"
+    },
+    "ryukyu_experience": {
+      "title": "Ryukyu Experience",
+      "japanese_title": "m",
+      "price": "$110",
+      "description": "Option 1: You can choose 1 bottle wine red, white sparkling or 1 bottle Japanese sake from the excursive list. \nOption 2: Choose any 2 Kujira Whisky Drinks.\nOption 3: Ultimate favorite draft beer from the list.",
+        "image": ""
+    },
+    "omakase": {
+      "title": "O-makase",
+        "japanese_title": "おまかせ",
+      "price": "Ask your server for daily price",
+        "description": "Special Foods and drinks you never gonna forget.\nFeaturing abalone, sea urchin, sweet shrimp, A5 king salmon, lobster, A5 Wagyu Beef and more world treasures."
+    }
+  },
+  "menu": {
+    "shareable_appetizers": {
+      "english_title": "Shareable Appetizers",
+      "japanese_title": "シェアして楽しめる前菜",
+      "items": [
+        {
+          "title": "Edamame",
+          "japanese_title": "枝豆",
+          "description": "Edamame in shells flavored with kosher salt, lemon pepper.",
+          "price": "6.50",
+          "image": ""
+        },
+        {
+          "title": "Harumaki Japanese Spring Roll",
+          "japanese_title": "春巻き",
+          "description": "Mixed Verity asian vegetables deep fried till gold and crispy.",
+          "price": "6.50",
+          "image": ""
+        },
+        {
+          "title": "Shrimp Shumai",
+          "japanese_title": "海老焼売",
+          "description": "Baked ground pork and shrimp handmade in our kitchen with our special sauce.",
+          "price": "8.50",
+          "image": ""
+        },
+        {
+          "title": "Gyoza",
+          "japanese_title": "餃子",
+          "description": "Chicken Stuffed Dumplings deep fried till golden crispy.",
+          "price": "8.50",
+          "image": ""
+        },
+        {
+          "title": "Fried Calamari",
+          "japanese_title": "揚げイカ",
+          "description": "Cut and breaded deep fried squid rings.",
+          "price": "10.50",
+          "image": ""
+        },
+        {
+          "title": "Fried Oyster",
+          "japanese_title": "オイスターフライ",
+          "description": "Fresh east coast medium size breaded with special creamy sauce on the side.",
+          "price": "10.50",
+          "image": ""
+        },
+        {
+          "title": "Karaage Chicken",
+          "japanese_title": "からあげチキン",
+          "description": "A traditional style Japanese popcorn chicken.",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Agedashi Tofu",
+          "japanese_title": "揚げ出し豆腐",
+          "description": "Fresh Medium Firm Tofu lightly fried till brown with dark sauce.",
+          "price": "8.50",
+          "image": ""
+        },
+        {
+          "title": "Takoyaki",
+          "japanese_title": "章魚燒",
+          "description": "A ball-shaped Japanese snack inside with octopus.",
+          "price": "8.50",
+          "image": ""
+        },
+        {
+          "title": "Yellowtail Jalapeno",
+          "japanese_title": "ハマチのハラペーニョ",
+          "description": "Artful pairing of six thin slices each of jalapeno and yellowtail in yuzu-ponzu sauce.",
+          "price": "12.50",
+          "image": ""
+        },
+        {
+          "title": "Sexy Jalapeno",
+          "japanese_title": "",
+          "description": "The MOST popular Sushi bar appetizer in Kyoto! Fresh cut Jalapeno stuffed with seaweed salad and cream cheese. Deep fried in tempura style.",
+          "price": "10.50",
+          "image": ""
+        },
+        {
+          "title": "Grill Black Pepper Tuna",
+          "japanese_title": "ペッパーマグロ",
+          "description": "Light Torched Fresh Tuna covered with black pepper and sesame.",
+          "price": "12.50",
+          "image": ""
+        },
+        {
+          "title": "Salmon Tartare",
+          "japanese_title": "鮭のタルタル",
+          "description": "Prepared with fresh raw salmon and seasonings mixed with avocado on top of fresh cucumber.",
+          "price": "12.50",
+          "image": ""
+        },
+        {
+          "title": "Spicy Tuna Bite",
+          "japanese_title": "スパイシーマグロバイト",
+          "description": "Fresh avocado slices, and a dollop of spicy ahi tuna with a slice of jalapeno on top of crispy sushi rice bread.",
+          "price": "12.50",
+          "image": ""
+        }
+      ]
+    },
+    "soup_salad": {
+      "english_title": "Soup & Salad",
+      "japanese_title": "シェアして楽しめる前菜",
+      "items": [
+        {
+          "title": "House Green Salad",
+          "japanese_title": "ハウスグリーンサラダ",
+          "description": "Choice of Japanese ginger dressing of spicy ranch.",
+          "price": "6.50",
+          "image": ""
+        },
+        {
+          "title": "Wakame",
+          "japanese_title": "ワカメ",
+          "description": "Japanese-style Seaweed Salad with homemade dressing.",
+          "price": "6.50",
+          "image": ""
+        },
+        {
+          "title": "Spicy Kani Salad",
+          "japanese_title": "蟹サラダ",
+          "description": "Japanese version of crab salad made with thin crab sticks and julienned crunchy vegetables, dressed with a spicy mayonnaise.",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Chuka Ika Sansai",
+          "japanese_title": "中華いか山菜",
+          "description": "Taste of the ocean, a Japanese style calamari salad with some fresh ingredients and vignate dressing.",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Miso Soup",
+          "japanese_title": "味噌汁",
+          "description": "A traditional Japanese soup consisting of a dashi stock into which softened miso paste is mixed.",
+          "price": "4.50",
+          "image": ""
+        },
+        {
+          "title": "Kombu and Shiitake Dashi",
+          "japanese_title": "昆布と椎茸のだし",
+          "description": "Shiitake mushrooms and kombu seaweed bring you the earth and sea in one bowl.",
+          "price": "4.50",
+          "image": ""
+        }
+      ]
+    },
+    "kids_menu": {
+      "english_title": "Kids Menu",
+      "japanese_title": "お子様メニュー",
+      "items": [
+        {
+          "title": "French Fries",
+          "price": "7.50"
+        },
+        {
+          "title": "Corn Dog",
+          "price": "7.50"
+        },
+        {
+          "title": "Chicken Nuggets",
+          "price": "7.50"
+        },
+        {
+          "title": "Fried Mozzarella Cheese Sticks",
+          "price": "7.50"
+        }
+      ]
+    },
+    "tempura_katsu": {
+      "english_title": "Tempura and Katsu",
+      "japanese_title": "天ぷら・揚げ物",
+      "items": [
+        {
+          "title": "Vegetable Tempura",
+          "japanese_title": "野菜",
+          "description": "Variety of fresh vegetables in tempura bread come with house made dipping sauce.",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Shrimp Tempura",
+          "japanese_title": "エビ天ぷら",
+          "description": "Fresh breaded tiger shrimp with house made tempura dressing.",
+          "price": "10.50",
+          "image": ""
+        },
+        {
+          "title": "Kani Tempura",
+          "japanese_title": "カニ",
+          "description": "Japanese deep-fried sushi crab sticks dipped in light and crispy batter, deep fried to golden color.",
+          "price": "10.50",
+          "image": ""
+        },
+        {
+          "title": "Chicken Katsu",
+          "japanese_title": "唐揚げ",
+          "description": "Japanese-style fried chicken cutlet coated with crispy panko, perfect with steam rice and special katsu sauce.",
+          "price": "15.50",
+          "image": ""
+        },
+        {
+          "title": "Crispy Fish Katsu",
+          "japanese_title": "揚げ魚",
+          "description": "Fresh Cod cut in individual bite size deep fried til golden crispy.",
+          "price": "15.50",
+          "image": ""
+        }
+      ]
+    },
+    "sushi": {
+      "english_title": "Sushi",
+      "japanese_title": "寿司",
+      "description": "(2 pieces per order) Bed Rice top with fresh ingredients",
+      "items": [
+        {
+          "title": "Tuna",
+          "japanese_title": "鮪まぐろ",
+          "description": "Maguro",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Salmon",
+          "japanese_title": "鮭サーモン",
+          "description": "Sake",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Yellowtail",
+          "japanese_title": "ハマチ",
+          "description": "Hamachi",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "White Tuna",
+          "japanese_title": "ヘビサバ",
+          "description": "Hebi-saba",
+          "price": "8.50",
+          "image": ""
+        },
+        {
+          "title": "Red Snapper",
+          "japanese_title": "真鯛",
+          "description": "Madai",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Eel",
+          "japanese_title": "うなぎ",
+          "description": "Unagi",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Shrimp",
+          "japanese_title": "エビ",
+          "description": "Ebi",
+          "price": 7.50,
+          "image": ""
+        },
+        {
+          "title": "Kani",
+          "japanese_title": "カ ニ",
+          "description": "",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Squid",
+          "japanese_title": "イカ",
+          "description": "Ika",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Bass",
+          "japanese_title": "縞鱸",
+          "description": "Suzuki",
+          "price": 7.50,
+          "image": ""
+        },
+        {
+          "title": "Mackerel",
+          "japanese_title": "さばSABA",
+          "description": "Saba",
+          "price": 7.50,
+          "image": ""
+        },
+        {
+          "title": "Masago",
+          "japanese_title": "ワカサギの",
+          "description": "Smelt roe",
+          "price": "8.50",
+          "image": ""
+        },
+        {
+          "title": "Spicy Tuna",
+          "japanese_title": "ピリ辛マグロ",
+          "description": "Piri kara maguro",
+          "price": 8.50,
+          "image": ""
+        },
+        {
+          "title": "Spicy Salmon",
+          "japanese_title": "スパイシーサーモン",
+          "description": "Tsurai Sake",
+          "price": 8.50,
+          "image": ""
+        },
+        {
+          "title": "Tofu Skin",
+          "japanese_title": "いなり",
+          "description": "Inari",
+          "price": 6.50,
+          "image": ""
+        },
+        {
+          "title": "Egg",
+          "japanese_title": "玉子焼き",
+          "description": "Tamago",
+          "price": 6.50,
+          "image": ""
+        },
+        {
+          "title": "Seaweed",
+          "japanese_title": "ワカメ",
+          "description": "",
+          "price": 6.50,
+          "image": ""
+        },
+        {
+          "title": "Mango",
+          "japanese_title": "マンゴー",
+          "description": "",
+          "price": 6.50,
+          "image": ""
+        }
+      ]
+    },
+    "roll": {
+      "english_title": "Roll or Hand Roll",
+      "japanese_title": "巻き寿司 | 手巻き",
+      "items": [
+        {
+          "title": "California Roll",
+          "price": 7.50,
+          "image": ""
+        },
+        {
+          "title": "Salmon Roll",
+          "price": 7.5,
+          "image": "path_to_image"
+        },
+        {
+          "title": "Philadelphia Roll",
+          "price": 7.50,
+          "image": ""
+        },
+        {
+          "title": "Tuna Roll",
+          "price": 7.50,
+          "image": ""
+        },
+        {
+          "title": "Avocado & Cucumber Roll",
+          "price": 6.50,
+          "image": ""
+        },
+        {
+          "title": "Mushroom Avocado Roll",
+          "price": 6.50,
+          "image": ""
+        },
+        {
+          "title": "Tuna Avocado Roll",
+          "price": 9.50,
+          "image": ""
+        },
+        {
+          "title": "Yellowtail Jalapeño Roll",
+          "price": 8.50,
+          "image": ""
+        },
+        {
+          "title": "Eel Avocado Roll",
+          "price": 8.50,
+          "image": ""
+        },
+        {
+          "title": "Eel Cucumber Roll",
+          "price": 8.50,
+          "image": ""
+        },
+        {
+          "title": "Peanut Avocado Roll",
+          "price": 6.50,
+          "image": ""
+        },
+        {
+          "title": "Sweet Potato Roll",
+          "price": 6.50,
+          "image": "path_to_image"
+        },
+        {
+          "title": "Salmon Skin Roll",
+          "price": 6.50,
+          "image": ""
+        },
+        {
+          "title": "Shrimp Tempura Roll",
+          "price": 8.50,
+          "image": ""
+        },
+        {
+          "title": "Spicy Tuna Roll",
+          "price": 8.50,
+          "image": ""
+        },
+        {
+          "title": "Spicy Salmon Roll",
+          "price": 8.50,
+          "image": ""
+        }
+      ]
+    },
+    "special_roll": {
+      "title": "Special Roll",
+      "japanese_title": "特上寿司",
+      "description": "6-8 pieces per order",
+      "items": [
+        {
+          "title": "Kujira Roll",
+          "description": "Shrimp Tempura cucumber tapped with lobster salad topped spicy mayo, eel sauce and tobiko",
+          "price": "17.50",
+          "image": ""
+        },
+        {"title": "Crunchy Eel Roll", "description": "Tempura flakes, avocado, crab meat, topped with whole roasted eel", "price": 15.50, "image": ""},
+        {"title": "Fire Island Roll", "description": "Crunchy Spicy salmon inside, topped with lobster salad and jalapeño", "price": 17.50, "image": ""},
+        {"title": "Dragon Roll", "description": " Eel cucumber topped with avocada eel sauce and tobiko", "price": 16.50, "image": ""},
+        {"title": "Rainbow Roll", "description": "California roll topped with tuna, salmon, and white fish", "price": 15.50, "image": ""},
+        {"title": "Dancing Tuna Roll", "description": "Crunchy spicy tuna and mango, spicy salmon on top", "price": 15.50, "image": ""},
+        {"title": "Spider Roll", "description": "Deep fried soft shell crab, cucumber, and avocado with eel sauce on top", "price": 13.50, "image": ""},
+        {"title": "Yummy Roll", "description": "Eel & avocado, mango topped with crunchy spicy tuna", "price": 14.50, "image": ""},
+        {"title": "Crazy Tuna Roll", "description": "Pepper Tuna and avocado inside topped with spicy tuna", "price": 16.50, "image": ""},
+        {"title": "Crispy Roll", "description": "Smoked salmon, cream cheese, avocado deep fried whole roll, with eel sauce on top", "price": 14.50, "image": ""},
+        {"title": "Pink Lady Roll", "description": "Tuna salmon, yellowtail, avocado, cucumber, tobiko wrapped with soybean paper", "price": 17.50, "image": ""},
+        {"title": "Dynamite Roll", "description": "Crab, cream cheese and avocado deep fried and spicy crunchy tuna on top with spicy special sauce", "price": 16.50, "image": ""},
+        {"title": "Winter Roll", "description": "Tuna salmon, Yellowtail inside with spicy crab meat on the top", "price": 14.50, "image": ""},
+        {"title": "Godzilla Roll", "description": "Spicy tuna and crunch with avocado on the top", "price": 13.50, "image": ""},
+        {"title": "Crazy Mango Roll", "description": "Avocado, kani, topped with mango and mango sauce", "price": 15.50, "image": ""},
+        {"title": "Butterfly Roll", "description": "Lobster salad, mango, crunch avocado awith soybean paper and mango sauce", "price": 17.50, "image": ""}
+      ]
+    },
+    "desert": {
+      "title": "Desert",
+      "japanese_title": "デザート",
+      "items": [
+        {
+          "title": "Vanilla Ice Cream",
+          "price": "4.50",
+            "image": ""
+        },
+        {
+          "title": "Strawberry Ice Cream",
+          "price": "4.50",
+          "image": ""
+        },
+        {
+          "title": "Chocolate Ice Cream",
+          "price": "4.50",
+          "image": ""
+        },
+        {
+          "title": "Green Tea Ice Cream",
+          "price": "4.50",
+          "image": ""
+        }
+      ]
+    },
+    "small_plates": {
+        "title": "Small Plates",
+        "japanese_title": "前菜",
+        "items": [
+          {"title": "Negimaki", "japanese_title": "ネギマキ", "price": 13.50, "description": "Scallions wrapped with thinly sliced Wagyu Steak in a teriyaki sauce", "image": ""},
+          {"title": "Sashimi Sampler", "japanese_title": "刺身盛り合わせ", "price": 16.50, "description": "Daily Chef's Choice of 5 Piece unique fresh pieces", "image": ""},
+          {"title": "Grill yuzu Scallop", "japanese_title": "柚子ホタテのグリル", "price": 16.50, "description": "The yuzu, as well as the sake, soy sauce, sesame seeds, and other seasonings on giant scallops", "image": ""},
+          {"title": "EBI MAYO", "japanese_title": "海老のマヨネーズ添え", "price": 16.50, "description": "Fried king prawns in homemade mayonnaise sauce", "image": ""},
+          {"title": "NAGOYA STYLE TEBASAKI CHICKEN WINGS", "japanese_title": "名古屋風手羽先", "price": 12.50, "description": "Lightly crispy chicken wings coated with a delicious homemade sauce and sprinkled with a generous dusting of fine white pepper", "image": ""}
+        ]
+    },
+    "tokyo_sushi": {
+      "title": "Sushi",
+      "japanese_title": "寿司",
+      "description": "(2 pieces per order) ",
+      "items": [
+        {
+          "title": "Sweet Shrimp",
+          "japanese_title": "甘海老",
+          "description": "Amaebi",
+          "price": "13.50",
+          "image": ""
+        },
+        {
+          "title": "Scallop",
+          "japanese_title": "ホタテ貝",
+          "description": "Hotatekai",
+          "price": "10.50",
+          "image": ""
+        },
+        {
+          "title": "Seared Scallop Japanese Mayo",
+          "japanese_title": "ホタテのたたき",
+          "description": "",
+          "price": "10.50",
+          "image": ""
+        },
+        {
+          "title": "Octopus",
+          "japanese_title": "タコ",
+          "description": "Tako",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Surf Clams",
+          "japanese_title": "北極ホッキ貝",
+          "description": "Hokkigai",
+          "price": "12.50",
+          "image": ""
+        },
+        {
+          "title": "Red Caviar",
+          "japanese_title": "赤キャビア",
+          "description": "Aka Kyabia",
+          "price": "14.50",
+          "image": ""
+        },
+        {
+          "title": "Wagyu",
+          "japanese_title": "和牛",
+          "description": "Beef",
+          "price": "14.50",
+          "image": ""
+        },
+        {
+          "title": "BlueFin Tuna",
+          "japanese_title": "本まぐろ",
+          "description": "Hon maguro",
+          "price": "12.50",
+          "image": ""
+        }
+      ]
+    },
+    "sashimi": {
+      "title": "Sashimi",
+        "japanese_title": "刺身",
+      "description": "(3 pieces per order)",
+      "items": [
+        {
+          "title": "Tuna",
+          "japanese_title": "鮪まぐろ",
+          "description": "Maguro",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Salmon",
+          "japanese_title": "鮭サーモン",
+          "description": "Sake",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Yellowtail",
+          "japanese_title": "ハマチ",
+          "description": "Hamachi",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "White Tuna",
+          "japanese_title": "ヘビサバ",
+          "description": "Hebi-saba",
+          "price": "8.50",
+          "image": ""
+        },
+        {
+          "title": "Red Snapper",
+          "japanese_title": "真鯛",
+          "description": "Madai",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Eel",
+          "japanese_title": "うなぎ",
+          "description": "Enagi",
+          "price": "9.50",
+          "image": ""
+        },
+        {
+          "title": "Surf Clams",
+          "japanese_title": "北極ホッキ貝",
+          "description": "Hokkigai",
+          "price": "12.50",
+          "image": ""
+        },
+        {
+          "title": "Shrimp",
+          "japanese_title": "エビ",
+          "description": "Ebi",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Kani",
+          "japanese_title": "カニ",
+          "description": "",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Octopus",
+          "japanese_title": "タコ",
+          "description": "Tako",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Squid",
+          "japanese_title": "イカ",
+          "description": "Ika",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Bass",
+          "japanese_title": "縞鱸",
+          "description": "Suzuki",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Mackerel",
+          "japanese_title": "さばSABA",
+          "description": "Saba",
+          "price": "7.50",
+          "image": ""
+        },
+        {
+          "title": "Egg",
+          "japanese_title": "玉子焼き",
+          "description": "Tamago",
+          "price": "6.50",
+          "image": ""
+        }
+      ]
+    },
+    "tokyo_desert": {
+        "title": "Desert",
+        "japanese_title": "デザート",
+        "items": [
+          {
+            "title": "Matcha Mochi",
+            "japanese_title": "抹茶餅",
+            "price": "5.50",
+            "image": ""
+          },
+          {
+            "title": "Red Bean Mochi",
+            "japanese_title": "小豆餅",
+            "price": "5.50",
+            "image": ""
+          },
+          {
+            "title": "Mango Mochi",
+            "japanese_title": "マンゴー餅",
+            "price": "5.50",
+            "image": ""
+          },
+          {
+            "title": "Taiyaki",
+            "japanese_title": "鯛焼き",
+            "price": "6.50",
+            "image": ""
+          }
+        ]
+    }
+  }
+}
