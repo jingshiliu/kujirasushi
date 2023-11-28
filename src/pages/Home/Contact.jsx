@@ -20,7 +20,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        if(lastFiveEmails[0] !== undefined && lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
+        if(lastFiveEmails.length === 5 && lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
             alert('You have sent too many emails in the past 24 hours. Please try again later.');
             return;
         }
@@ -33,7 +33,7 @@ const Contact = () => {
         localStorage.setItem('lastFiveEmails', JSON.stringify(newLastFiveEmails));
         setLastFiveEmails(newLastFiveEmails);
 
-        emailjs.sendForm('kujira', 'kujira', form.current, 'e0g2gVdQDOZhcOcAw')
+        emailjs.sendForm('customer_kujira', 'template_lurf5it', form.current, 'e0g2gVdQDOZhcOcAw')
             .then(() => {
                 alert('Your message has been sent successfully. We will get back to you as soon as possible.')
             }, (error) => {
