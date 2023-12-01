@@ -24,17 +24,21 @@ const Footer = () => {
                     <li><Link to={'/#contact'}>Contact</Link></li>
                 </ul>
 
-                <a
-                    className={`hover:underline hover:cursor-pointer hover:text-slate-400`}
-                    target={'_blank'}
-                    href={"https://www.google.com/maps/place/736+Bellefonte+St,+Pittsburgh,+PA+15232/@40.451308,-79.9341518,17z/data=!4m6!3m5!1s0x8834f2111db3ddcd:0x1ae321dd70615799!8m2!3d40.451308!4d-79.9341518!16s%2Fg%2F11bw3yrbt6?source=lnms"}
-                >
-                    <p>
-                        736 Bellefonte St <br/>
-                        Pittsburgh <br/>
-                        PA 15232
-                    </p>
-                </a>
+                <div className={'space-y-8'}>
+                    <a
+                        className={`hover:underline hover:cursor-pointer hover:text-slate-400`}
+                        target={'_blank'}
+                        href={"https://www.google.com/maps/place/736+Bellefonte+St,+Pittsburgh,+PA+15232/@40.451308,-79.9341518,17z/data=!4m6!3m5!1s0x8834f2111db3ddcd:0x1ae321dd70615799!8m2!3d40.451308!4d-79.9341518!16s%2Fg%2F11bw3yrbt6?source=lnms"}
+                    >
+                        <p>
+                            736 Bellefonte St <br/>
+                            Pittsburgh <br/>
+                            PA 15232
+                        </p>
+                    </a>
+
+                    <span>(412) 797-8888</span>
+                </div>
             </div>
 
         </section>
