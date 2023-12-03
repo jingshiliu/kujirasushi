@@ -1,17 +1,16 @@
-import {getImageUrl} from "../../util.js";
 
-const MenuItemCard = ({menuItem, className, imageWidth, imageHeight}) => {
-    if(className === undefined) className = "";
-
+const MenuItemCard = ({menuItem, className}) => {
     // eslint-disable-next-line react/prop-types
     const {title, japanese_title , description, price, image} = menuItem;
+    if(className === undefined) className = "";
+
     return (
         <div className={`inline-block text-slate-700 ${className}`}>
             {image?
                 (<img
                     className={`w-full object-cover rounded-lg shadow-xl my-4`}
                     loading={"lazy"}
-                    src={getImageUrl(image, imageWidth, imageHeight)}
+                    src={`/images/${image}`}
                     alt={title}
                 />)
                 : null}

@@ -1,5 +1,4 @@
 import MenuItemCard from "./MenuItemCard.jsx";
-import {getImageUrl} from "../../util.js";
 
 // eslint-disable-next-line react/prop-types
 const MenuSection = ({sectionMenu, className="", id="", children}) => {
@@ -24,7 +23,7 @@ const MenuSection = ({sectionMenu, className="", id="", children}) => {
                         (<img
                             className={`object-cover rounded-lg shadow-xl my-4`}
                             loading={"lazy"}
-                            src={getImageUrl(image, 800, 400)}
+                            src={`/images/${image}`}
                             alt={english_title}
                         />)
                         : null}
