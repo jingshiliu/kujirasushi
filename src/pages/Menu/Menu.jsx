@@ -2,9 +2,7 @@ import Nav from "../../components/Nav.jsx";
 import Footer from "../../components/Footer.jsx";
 import menu from "../../assets/menu.json";
 import MenuSection from "./MenuSection.jsx";
-import BackGroundImage from "../../assets/images/mahmoud-fawzy-YnVaHqgpPLA-unsplash.jpg";
 
-import Background from "../../components/Background.jsx";
 import ExperienceSection from "./ExperienceSection.jsx";
 import Welcome from "./Welcome.jsx";
 import PdfMenu from "./PDFMenu.jsx";
@@ -14,6 +12,7 @@ const Menu = () => {
     return (
         <main className={" overflow-x-hidden "}>
             <Nav className={`text-slate-200`}/>
+            <Welcome/>
             <section className={`py-32 px-20 lg:px-40 max-sm:px-10 tracking-wide bg-white` }>
                 <PdfMenu/>
                 <ExperienceSection/>
