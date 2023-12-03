@@ -1,11 +1,9 @@
-import KujiraSushiMenu  from '../../assets/kujirasushi.pdf'
-import LunchMenu  from '../../assets/lunch_menu.pdf'
+import ScrollableNotification from "../../components/ScrollableNotification.jsx";
 
 
 const Welcome = () => {
     return (
-        <section className={'flex justify-center items-center h-screen text-slate-200'}>
-
+        <section className={'flex justify-center items-center h-screen text-slate-200 relative'}>
             <div className={'flex justify-center items-center flex-col'}>
                 <div className={`mb-28 text-center animate__animated animate__fadeInDown`}>
                     <h1
@@ -19,21 +17,13 @@ const Welcome = () => {
                 <a className={`text-slate-50 border px-10 py-4 border-slate-300 hover:bg-slate-200 hover:text-slate-500 
                                 hover:bg-opacity-90 transition duration-300 ease-in-out shadow-md shadow-slate-100 
                                 bg-opacity-60 bg-slate-500 animate__animated animate__fadeInUp block mb-10 w-100`}
-                   href={KujiraSushiMenu}
+                   href={'/menu'}
                    target={'_blank'}
                 >
-                    Full Menu
-                </a>
-
-                <a className={`text-slate-50 border px-10 py-4 border-slate-300 hover:bg-slate-200 hover:text-slate-500 
-                                hover:bg-opacity-90 transition duration-300 ease-in-out shadow-md shadow-slate-100 
-                                bg-opacity-60 bg-slate-500 animate__animated animate__fadeInUp`}
-                   href={LunchMenu}
-                   target={'_blank'}
-                >
-                    Lunch Menu
+                    Menu
                 </a>
             </div>
+            <ScrollableNotification/>
         </section>
     );
 };
