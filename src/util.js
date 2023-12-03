@@ -12,12 +12,12 @@ export const getNetlifyImageCDNUrl = (url, width=800, height=600, fit = 'cover')
 
 export const getImageUrl = (imageName, width=800, height=600, fit = 'cover', source='netlify') => {
     // before deploy to netlify, change url to `assets/images/${imageName}`
-    let url;
-    if (isLocalhost()) {
-        url = `src/assets/images/${imageName}`;
-    } else {
-        url = `assets/images/${imageName}`;
-    }
+    let url = `src/assets/images/${imageName}`;
+    // if (isLocalhost()) {
+    //     url = `src/assets/images/${imageName}`;
+    // } else {
+    //     url = `assets/images/${imageName}`;
+    // }
     if (source === 'netlify') {
         return getNetlifyImageCDNUrl(url, width, height, fit);
     }
