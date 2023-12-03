@@ -2,7 +2,7 @@ import MenuItemCard from "./MenuItemCard.jsx";
 import {getImageUrl} from "../../util.js";
 
 // eslint-disable-next-line react/prop-types
-const MenuSection = ({sectionMenu, className="", id=""}) => {
+const MenuSection = ({sectionMenu, className="", id="", children}) => {
     // eslint-disable-next-line react/prop-types
     const {english_title, japanese_title, description, price, image, items} = sectionMenu;
 
@@ -53,6 +53,7 @@ const MenuSection = ({sectionMenu, className="", id=""}) => {
                     />
                 ): null}
             </section>
+            {children}
         </section>
     );
 };
