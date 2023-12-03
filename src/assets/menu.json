@@ -1,39 +1,39 @@
 {
   "featured": {
     "pacific_experience": {
-      "title": "Pacific Experience",
+      "english_title": "Pacific Experience",
       "japanese_title": "太平洋体験",
       "description": "Children: (ages 3-6) $9.99 (ages 7-12): $17.99",
-      "price": "$27.99"
+      "price": "27.99"
     },
     "teriyaki_bowl": {
-      "title": "Teriyaki Bowl",
+      "english_title": "Teriyaki Bowl",
       "japanese_title": "照燒てりやきご飯",
       "description": "Combine the say sauce, brown sugar, ginger, garlic, honey, sesame ail, mirin and water mixed with comstarch together in a bowl then add your favorite proteins and veg!\nChoose your protein chicken, beef, shrimp",
       "price": "17.50",
       "image": "terriyaki_bowl.jpg"
     },
     "japanese_noodle_soup": {
-        "title": "Japanese Noodle Soup",
+        "english_title": "Japanese Noodle Soup",
         "japanese_title": "(Udon 麺 Or Ramen 手延べ麺)",
         "description": " Choose your noodle type udon or ramen Soy, Spicy,creamy tonkotsu broth, Chicken Broth \nChoose your protein: Vetetable, Shrimp Tempura, Chicken, Seafood",
         "price": "15.50",
         "image": "noodle_soup.jpeg"
     },
     "tokyo_experience": {
-      "title": "Tokyo Experience",
+      "english_title": "Tokyo Experience",
       "japanese_title": "東京コース",
-      "price": "$37.99"
+      "price": "37.99"
     },
     "ryukyu_experience": {
-      "title": "Ryukyu Experience",
+      "english_title": "Ryukyu Experience",
       "japanese_title": "m",
       "price": "$110",
       "description": "Option 1: You can choose 1 bottle wine red, white sparkling or 1 bottle Japanese sake from the excursive list. \nOption 2: Choose any 2 Kujira Whisky Drinks.\nOption 3: Ultimate favorite draft beer from the list.",
         "image": ""
     },
     "omakase": {
-      "title": "O-makase",
+      "english_title": "O-makase",
         "japanese_title": "おまかせ",
       "price": "Ask your server for daily price",
         "description": "Special Foods and drinks you never gonna forget.\nFeaturing abalone, sea urchin, sweet shrimp, A5 king salmon, lobster, A5 Wagyu Beef and more world treasures."
@@ -353,7 +353,7 @@
           "japanese_title": "ピリ辛マグロ",
           "description": "Piri kara maguro",
           "price": 8.50,
-          "image": "spicy_tuna_sushi"
+          "image": "spicy_tuna_sushi.jpg"
         },
         {
           "title": "Spicy Salmon",
@@ -395,6 +395,7 @@
     "roll": {
       "english_title": "Roll or Hand Roll",
       "japanese_title": "巻き寿司 | 手巻き",
+      "description": "6 pieces per order",
       "items": [
         {
           "title": "California Roll",
@@ -444,7 +445,7 @@
         {
           "title": "Eel Cucumber Roll",
           "price": 8.50,
-          "image": "eel_cucumber_rool.avif"
+          "image": "eel_cucumber_rool.jpg"
         },
         {
           "title": "Peanut Avocado Roll",
@@ -479,7 +480,7 @@
       ]
     },
     "special_roll": {
-      "title": "Special Roll",
+      "english_title": "Special Roll",
       "japanese_title": "特上寿司",
       "description": "6-8 pieces per order",
       "items": [
@@ -501,19 +502,19 @@
         {"title": "Pink Lady Roll", "description": "Tuna salmon, yellowtail, avocado, cucumber, tobiko wrapped with soybean paper", "price": 17.50, "image": "pink_lady_roll.jpeg"},
         {"title": "Dynamite Roll", "description": "Crab, cream cheese and avocado deep fried and spicy crunchy tuna on top with spicy special sauce", "price": 16.50, "image": "dynamite.png"},
         {"title": "Winter Roll", "description": "Tuna salmon, Yellowtail inside with spicy crab meat on the top", "price": 14.50, "image": "winter_roll.webp"},
-        {"title": "Godzilla Roll", "description": "Spicy tuna and crunch with avocado on the top", "price": 13.50, "image": "godzilla_roll.avif"},
+        {"title": "Godzilla Roll", "description": "Spicy tuna and crunch with avocado on the top", "price": 13.50, "image": "godzilla_roll.jpg"},
         {"title": "Crazy Mango Roll", "description": "Avocado, kani, topped with mango and mango sauce", "price": 15.50, "image": "crazy_mango_roll.jpeg"},
         {"title": "Butterfly Roll", "description": "Lobster salad, mango, crunch avocado awith soybean paper and mango sauce", "price": 17.50, "image": "butterfly_roll.jpeg"}
       ]
     },
     "desert": {
-      "title": "Desert",
+      "english_title": "Desert",
       "japanese_title": "デザート",
       "items": [
         {
           "title": "Vanilla Ice Cream",
           "price": "4.50",
-            "image": "vanilla_icecream"
+            "image": "vanilla_icecream.jpg"
         },
         {
           "title": "Strawberry Ice Cream",
@@ -533,7 +534,7 @@
       ]
     },
     "small_plates": {
-        "title": "Small Plates",
+        "english_title": "Small Plates",
         "japanese_title": "前菜",
         "items": [
           {"title": "Negimaki", "japanese_title": "ネギマキ", "price": 13.50, "description": "Scallions wrapped with thinly sliced Wagyu Steak in a teriyaki sauce", "image": "negimaki.jpg"},
@@ -556,7 +557,7 @@
         ]
     },
     "tokyo_sushi": {
-      "title": "Sushi",
+      "english_title": "Sushi",
       "japanese_title": "寿司",
       "description": "(2 pieces per order) ",
       "items": [
@@ -614,12 +615,12 @@
           "japanese_title": "本まぐろ",
           "description": "Hon maguro",
           "price": 12.50,
-          "image": "bluefin_tuna_sushi"
+          "image": "bluefin_tuna_sushi.jpg"
         }
       ]
     },
     "sashimi": {
-      "title": "Sashimi",
+      "english_title": "Sashimi",
         "japanese_title": "刺身",
       "description": "(3 pieces per order)",
       "items": [
@@ -724,7 +725,7 @@
       ]
     },
     "tokyo_desert": {
-        "title": "Desert",
+        "english_title": "Desert",
         "japanese_title": "デザート",
         "items": [
           {
