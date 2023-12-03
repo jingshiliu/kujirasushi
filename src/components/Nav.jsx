@@ -10,9 +10,10 @@ const Nav = ({className}) => {
     const scrolled = useScrolled()
 
     return (
-        <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-50 max-sm:h-[30px] ${className}
+        <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-50 max-sm:h-[30px]
+                            ${className}
                             ${scrolled && !showMenu? "bg-opacity-90 bg-slate-500":""}`}>
-            <Link to="/#home" className={'z-20'}>
+            <Link to="/#home" className={`z-20 ${scrolled? 'text-slate-200':''}`}>
                 <h1 className={'flex items-center'}>
                     <GiSushis className={'w-10 h-10'}/>
                     <span className={'text-lg font-mono ml-2'}>
@@ -21,7 +22,9 @@ const Nav = ({className}) => {
                 </h1>
             </Link>
             <nav
-                className={'text-base flex justify-between lg:space-x-14 font-light max-sm:hidden sm:space-x-8 items-center'}
+                className={`text-base flex justify-between lg:space-x-14 font-light max-sm:hidden sm:space-x-8 items-center
+                            ${scrolled? 'text-slate-200':''}
+                            `}
             >
                 <Link to="/#home">Home</Link>
                 <Link to="/#about">About Us</Link>
