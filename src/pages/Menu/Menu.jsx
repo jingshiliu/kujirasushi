@@ -2,12 +2,21 @@ import Nav from "../../components/Nav.jsx";
 import Footer from "../../components/Footer.jsx";
 import menu from "../../assets/menu.json";
 import MenuSection from "./MenuSection.jsx";
+import BackGroundImage from "../../assets/images/mahmoud-fawzy-YnVaHqgpPLA-unsplash.jpg";
+
+import { FaArrowRightLong } from "react-icons/fa6";
+import {scrollToHash} from "../../util.js";
+import Background from "../../components/Background.jsx";
+import ExperienceSection from "./ExperienceSection.jsx";
+
 
 const Menu = () => {
     return (
         <main className={" overflow-x-hidden "}>
             <Nav className={`text-slate-700`}/>
-            <section className={`py-32 px-20 lg:px-40 max-sm:px-10 tracking-wide` }>
+            <Background className={'overflow-hidden brightness-75 fixed'} image={BackGroundImage}/>
+            <section className={`py-32 px-20 lg:px-40 max-sm:px-10 tracking-wide bg-white` }>
+                <ExperienceSection/>
                 <MenuSection id={'pacific_experience'} className={`text-xl`}
                              sectionMenu={menu.featured.pacific_experience}/>
                 <MenuSection id={`appetizer`} sectionMenu={menu.menu.shareable_appetizers}/>
