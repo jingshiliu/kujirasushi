@@ -18,7 +18,6 @@ const Welcome = () => {
                                 hover:bg-opacity-90 transition duration-300 ease-in-out shadow-md shadow-slate-100 
                                 bg-opacity-60 bg-slate-500 animate__animated animate__fadeInUp block mb-10 w-100`}
                    href={'/menu'}
-                   target={'_blank'}
                 >
                     Menu
                 </a>
