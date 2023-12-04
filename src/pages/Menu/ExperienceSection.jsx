@@ -5,7 +5,7 @@ import {FaArrowRightLong} from "react-icons/fa6";
 
 const ExperienceSection = () => {
     return (
-        <section className={'grid gap-10  max-2xl:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 w-auto sm:gap-x-14'}>
+        <section className={'grid gap-10  max-2xl:grid-cols-3 xl:grid-cols-3 grid-cols-2 w-auto sm:gap-x-14'}>
             <MenuSection
                 className={`border shadow-2xl p-4 rounded-lg`}
                 sectionMenu={menu.featured.pacific_experience}
