@@ -28,7 +28,7 @@ const Welcome = () => {
                        href={'https://tables.toasttab.com/restaurants/2753653b-5a1e-4668-8f46-6af4d49e50df/findTime'}
                        target={'_blank'}
                     >
-                        Appointment
+                        Reservation
                     </a>
                     <a className={`text-slate-50 border px-10 py-4 border-slate-300 hover:bg-slate-200 hover:text-slate-500 
                                 hover:bg-opacity-90 transition duration-300 ease-in-out shadow-md shadow-slate-100 
@@ -36,7 +36,7 @@ const Welcome = () => {
                        href={'https://tables.toasttab.com/restaurants/2753653b-5a1e-4668-8f46-6af4d49e50df/joinWaitlist'}
                        target={'_blank'}
                     >
-                        Waitlist
+                        Join Waitlist
                     </a>
                 </div>
             </div>
