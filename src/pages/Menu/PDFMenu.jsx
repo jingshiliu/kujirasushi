@@ -1,6 +1,5 @@
 import React from 'react';
 import KujiraSushiMenu from "../../assets/kujirasushi.pdf";
-import LunchMenu from "../../assets/lunch_menu.pdf";
 
 const PdfMenu = () => {
     return (
@@ -15,15 +14,6 @@ const PdfMenu = () => {
                    target={'_blank'}
                 >
                     Full Menu
-                </a>
-
-                <a className={`text-slate-50 border px-10 py-4 border-slate-300 hover:bg-slate-200 hover:text-slate-500 
-                                hover:bg-opacity-90 transition duration-300 ease-in-out shadow-md shadow-slate-100 
-                                bg-opacity-60 bg-slate-500 animate__animated animate__fadeInUp`}
-                   href={LunchMenu}
-                   target={'_blank'}
-                >
-                    Lunch Menu
                 </a>
             </div>
         </section>
