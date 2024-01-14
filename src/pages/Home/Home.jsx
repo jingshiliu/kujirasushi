@@ -8,6 +8,7 @@ import {scrollToHash} from "../../util.js";
 import {useLocation} from "react-router-dom";
 import Background from "../../components/Background.jsx";
 import HomeBackgroundImage from "../../assets/images/mahmoud-fawzy-Dbx6-XZY6Dg-unsplash.jpg";
+import NotificationPopUp from "./NotificationPopUp.jsx";
 const Home = () => {
     const location = useLocation()
 
@@ -18,6 +19,7 @@ const Home = () => {
         <main id={'home'} className={'text-slate-200 overflow-x-hidden'}>
             <Nav />
             <Background className={'overflow-hidden brightness-75 fixed'} image={HomeBackgroundImage}/>
+            <NotificationPopUp />
             <Welcome/>
             <About/>
             <Contact />
