@@ -8,7 +8,7 @@ const NotificationPopUp = () => {
     const visibilityStyle = isVisible ? '' : 'hidden'
 
     return (
-        <section className={`${visibilityStyle} fixed text-center z-10 md:top-1/4 top-1/2 left-1/2 max-md:w-3/4 -translate-x-1/2 -translate-y-1/2 max-[]`}>
+        <section className={`${visibilityStyle} fixed text-center z-50 md:top-1/4 top-1/2 left-1/2 max-md:w-3/4 -translate-x-1/2 -translate-y-1/2 max-[]`}>
 
             <button
                 className={`absolute font-bold z-10 top-0 right-0 p-2 text-slate-700 hover:text-slate-500 transition duration-300 ease-in-out`}

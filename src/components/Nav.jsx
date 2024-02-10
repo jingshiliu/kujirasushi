@@ -10,7 +10,7 @@ const Nav = ({className}) => {
     const scrolled = useScrolled()
 
     return (
-        <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-50 max-sm:h-[30px]
+        <header className={`lg:px-20 px-12 p-10 flex justify-between items-center fixed w-screen z-40 max-sm:h-[30px]
                             ${className}
                             ${scrolled && !showMenu? "bg-opacity-90 bg-slate-500":""}`}>
             <Link to="/#home" className={`z-20 ${scrolled? 'text-slate-200':''}`}>
