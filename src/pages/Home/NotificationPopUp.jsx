@@ -4,7 +4,7 @@ import {useMemo, useState} from "react";
 const NotificationPopUp = () => {
     const shouldDisplay = useMemo(()=>{
         const lastDisplayedTime = localStorage.getItem('lastDisplayedTime')
-        return lastDisplayedTime !== undefined && (Date.now() - lastDisplayedTime > 1000 * 60 * 60 * 24)
+        return lastDisplayedTime !== undefined && (Date.now() - lastDisplayedTime > 1000 * 60 * 60 * 24 * 7)
     }, [])
 
     const [isVisible, setIsVisible] = useState(shouldDisplay)
