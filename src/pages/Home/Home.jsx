@@ -9,6 +9,7 @@ import {useLocation} from "react-router-dom";
 import Background from "../../components/Background.jsx";
 import HomeBackgroundImage from "../../assets/images/mahmoud-fawzy-Dbx6-XZY6Dg-unsplash.jpg";
 import NotificationPopUp from "./NotificationPopUp.jsx";
+import News from "./News.jsx";
 const Home = () => {
     const location = useLocation()
 
@@ -21,6 +22,7 @@ const Home = () => {
             <Background className={'overflow-hidden brightness-75 fixed'} image={HomeBackgroundImage}/>
             <NotificationPopUp />
             <Welcome/>
+            <News/>
             <About/>
             <Contact />
             <Footer />
