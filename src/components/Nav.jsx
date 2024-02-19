@@ -29,6 +29,7 @@ const Nav = ({className}) => {
                 <Link to="/#home">Home</Link>
                 <Link to="/#about">About Us</Link>
                 <Link to="/menu">Menu</Link>
+                <Link to='/special_menu'>Special Menu</Link>
                 <Link to="/#contact">Contact Us</Link>
             </nav>
 
@@ -43,12 +44,15 @@ const Nav = ({className}) => {
                 <nav
                     className={`z-10 text-base flex flex-col justify-between text-slate-300 font-light sm:hidden items-center
                                 absolute left-0 top-0 border-b w-full space-y-5 text-center animate__animated animate__fadeInDown
-                                ${showMenu? "max-sm:bg-opacity-80 max-sm:bg-slate-500 translate-y-10 pt-20":""}`}
+                                ${showMenu ? "max-sm:bg-opacity-80 max-sm:bg-slate-500 translate-y-10 pt-20" : ""}`}
                 >
                     <a className={'hover:text-slate-400'} href="/#home">Home</a>
-                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400'} href="/#about">About Us</a>
+                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400'} href="/#about">About
+                        Us</a>
                     <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400'} href="/menu">Menu</a>
-                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400 pb-4'} href="/#contact">Contact Us</a>
+                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400'} href="/special_menu">Special Menu</a>
+                    <a className={'w-1/3 border-t border-slate-500 pt-4 hover:text-slate-400 pb-4'} href="/#contact">Contact
+                        Us</a>
                 </nav>
             ) : <></>}
         </header>
