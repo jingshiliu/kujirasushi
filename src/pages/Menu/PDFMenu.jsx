@@ -1,5 +1,4 @@
-import React from 'react';
-import KujiraSushiMenu from "../../assets/kujirasushi.pdf";
+import KujiraSushiMenu from "../../assets/menu_pdfs/kujirasushi.pdf";
 
 const PdfMenu = () => {
     return (

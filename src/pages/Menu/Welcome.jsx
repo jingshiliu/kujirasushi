@@ -1,7 +1,5 @@
 import Background from "../../components/Background.jsx";
 import BackGroundImage from "../../assets/images/mahmoud-fawzy-YnVaHqgpPLA-unsplash.jpg";
-import KujiraSushiMenu from "../../assets/kujirasushi.pdf";
-import LunchMenu from "../../assets/lunch_menu.pdf";
 import ScrollableNotification from "../../components/ScrollableNotification.jsx";
 
 const Welcome = () => {
