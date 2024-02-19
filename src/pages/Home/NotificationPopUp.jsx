@@ -1,9 +1,17 @@
 import { VscClose } from "react-icons/vsc";
-import {useState} from "react";
+import {useMemo, useState} from "react";
 
 const NotificationPopUp = () => {
-    const [isVisible, setIsVisible] = useState(true)
-    const closePopUp = () => setIsVisible(false)
+    const shouldDisplay = useMemo(()=>{
+        const lastDisplayedTime = localStorage.getItem('lastDisplayedTime')
+        return lastDisplayedTime !== undefined && (Date.now() - lastDisplayedTime > 1000 * 60 * 60 * 24)
+    }, [])
+
+    const [isVisible, setIsVisible] = useState(shouldDisplay)
+    const closePopUp = () => {
+        localStorage.setItem('lastDisplayedTime', Date.now())
+        setIsVisible(false)
+    }
 
     const visibilityStyle = isVisible ? '' : 'hidden'
 
