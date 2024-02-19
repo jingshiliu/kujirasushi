@@ -19,7 +19,7 @@ const Home = () => {
     return (
         <main id={'home'} className={'text-slate-200 overflow-x-hidden'}>
             <Nav />
-            <Background className={'overflow-hidden brightness-75 fixed'} image={HomeBackgroundImage}/>
+            <Background className={'brightness-75'} image={HomeBackgroundImage}/>
             <NotificationPopUp />
             <Welcome/>
             <News/>

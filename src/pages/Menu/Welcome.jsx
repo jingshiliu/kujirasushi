@@ -5,7 +5,7 @@ import ScrollableNotification from "../../components/ScrollableNotification.jsx"
 const Welcome = () => {
     return (
         <section className={`flex justify-center items-center h-screen text-slate-200 relative`}>
-            <Background className={'overflow-hidden brightness-75 fixed'} image={BackGroundImage}/>
+            <Background className={' brightness-75 '} image={BackGroundImage}/>
 
             <div className={'flex justify-center items-center flex-col'}>
                 <div className={`mb-28 text-center animate__animated animate__fadeInDown`}>
