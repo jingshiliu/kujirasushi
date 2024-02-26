@@ -38,6 +38,7 @@ const Contact = () => {
         emailjs.sendForm('customer_kujira', 'template_lurf5it', form.current, 'e0g2gVdQDOZhcOcAw')
             .then(() => {
                 alert('Your message has been sent successfully. We will get back to you as soon as possible.')
+                form.current.reset();
             }, (error) => {
                 alert('Your message has failed to send. Please try again later.');
                 console.log(error.text);
