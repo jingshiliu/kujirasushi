@@ -20,14 +20,16 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        if(lastFiveEmails.length === 5 && lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
+        // we want to avoid customer send more than 5 email in 24 hours
+        if(lastFiveEmails.length === 5000 && lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
             alert('You have sent too many emails in the past 24 hours. Please try again later.');
             return;
         }
 
-        const formData = new FormData(form.current);
-        const formDataObj = formDataToObject(formData);
+        const formDataObj = formDataToObject(new FormData(form.current));
         formDataObj['datetime'] = Date.now();
+
+        // update last five emails
         const newLastFiveEmails = [formDataObj, ...lastFiveEmails];
         if(newLastFiveEmails.length > 5) newLastFiveEmails.pop();
         localStorage.setItem('lastFiveEmails', JSON.stringify(newLastFiveEmails));
