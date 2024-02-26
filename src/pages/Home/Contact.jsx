@@ -21,7 +21,7 @@ const Contact = () => {
         e.preventDefault();
 
         // we want to avoid customer send more than 5 email in 24 hours
-        if(lastFiveEmails.length === 5000 && lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
+        if(lastFiveEmails.length === 5 && lastFiveEmails[0]['datetime'] < Date.now() - 1000 * 60 * 60 * 24){
             alert('You have sent too many emails in the past 24 hours. Please try again later.');
             return;
         }
